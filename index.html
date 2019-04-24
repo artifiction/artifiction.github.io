@@ -1,23 +1,104 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
 
-<div class="home">
+<head>
+  <title>Boromir by Δανιήλ</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">Boromir</span></a></h1>
+          <h2>A Greek Tragedy by Δανιήλ</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">The Play</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="bibliography.html">Bibliography</a></li>
+          <li><a href="additional.html">Additional Reading</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+          <img src="ajax.png"></img>
+          <img src="boromir.png"></img>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <div style="text-align:center">
+          <h1>Boromir</h1>
+          <h4 style="margin-top:-2%">by &Delta;&alpha;&nu;&iota;ή&lambda;<br />Translated by Daniel</h4>
+      </div>
+          <h4>Dramatis Personae</h4>
+          <p>THE ENEMY<br />BOROMIR<br />FRODO the RINGBEARER<br /></p>
+          <p>Scene<br /><em>BOROMIR stands at the foot of Amon Hen, gazing up a wooded path. THE ENEMY stands behind him, but BOROMIR does not turn when it speaks.</em></p>
+          <p>THE ENEMY: <br />Here stands the son of Denethor, his eyes<br />Upon the path where walked the ringbearer!<br />If blood of N&uacute;menor runs still in veins,<br />Is it not in the veins of men of Gondor?<br />Why does he stand in idle wait,<br />For halflings to decide the fate of men<br />And not pursue that child of fate,<br />To take the Power, and Ithil again?</p>
+          <p>BOROMIR:<br />If Aragorn refuses to advise <br />and holds his counsel to himself,<br />Shall not the son of stewards take his stead<br />And speak of Gondor's dire need?<br />By valor mine the West is safe,<br />Am I not Bulwark of the lands beyond?<br />Against the day I guard and chafe,<br />When horns of Gondor sound and none respond.</p>
+          <p><em>BOROMIR departs along the path, THE ENEMY following.</em><br /><em>Enter FRODO, on the cracked steps of Amon Hel</em></p>
+          <p>FRODO<br />These ruins once were settlements,<br />Where men of ages past would dwell.<br />I walk among them now, in fear,<br />Of where my path will lead my friends.<br />I know that haste is needed, yet,<br />I cannot choose in haste indeed.<br />To go to Gondor now with Boromir,<br />And join with him in wars of men,<br />Or east to where the fear and shadow dwells,<br />Along the path that Gandalf set. <br />But hark! I hear now footsteps,<br />And feel upon me eyes that bear ill will.</p>
+          <p><em>Enter BOROMIR, smiling.</em></p>
+          <p>FRODO:<br />And yet, how wrong was I! Here comes<br />Brave Boromir, a friendly countenance.</p>
+          <p>BOROMIR:<br />I was afeared for you, young Frodo,<br />For Aragorn told us orcs are near,<br />And in such times, it does not do to wander,<br />For you, the least of all our company.<br />My heart is heavy, as is yours,<br />We bear a burden both as one.<br />And so I ask that you would stay and talk,<br />Now that I've found you here anon.<br />Where there are many, speech becomes<br />Debate unending, yet perhaps<br />With two alone, some wisdom can be found.</p>
+          <p>FRODO:<br />I do not think that any speech will help,<br />Though I do find your offer kind.<br />I know what I must do but am afraid,<br />To go and do what must be done.</p>
+          <p>BOROMIR:<br />Do you not suffer needlessly that pain?<br />I feel you wish for help and counsel<br />In your hard choice. Will you take mine?</p>
+          <p>FRODO:<br />I think I know what counsel you would give,<br />And but for warning of my heart,<br />I fear that it would seem like wisdom.</p>
+          <p><em>Enter THE ENEMY, unseen by FRODO or BOROMIR.</em></p>
+          <p>THE ENEMY:<br />Will timid trembling in a halfling heart<br />Deny the hope of Gondor and its sons?</p>
+          <p>BOROMIR:<br />What warning's this, and what against?</p>
+          <p>FRODO:<br />Against the way that easy seems,<br />Refusal of this burden mine.<br />It must be said, against the trust,<br />In truth, of strength and truth of men.</p>
+          <p>THE ENEMY:<br />A halfling doubts the strength of men!<br />A cruel jest born in ignorance!</p>
+          <p>BOROMIR:<br />That strength has long protected you<br />and Shire, though you knew it not.</p>
+          <p>FRODO:<br />Your people's valour I don't doubt, <br />But all around, the world doth change,<br />And Minas Tirith walls, though strong,<br />Can fail, proved not strong enough. <br />What end then will remain to us?</p>
+          <p>BOROMIR:<br />In valiant battle we shall fall. <br />But hope remains they'll fail not.</p>
+          <p>FRODO:<br />There is no hope while the Ring lasts.</p>
+          <p>BOROMIR:<br />Ah! The Ring! We suffer such fear,<br />Such doubt, and for so small a thing.</p>
+          <p>THE ENEMY:<br />Is it not a protector's due,<br />To glimpse at what you've risked to guard?</p>
+          <p>BOROMIR:<br />I've seen it but at Elrond's Court.<br />Grant me again a sight of it?</p>
+          <p>FRODO:<br />(Aside) I sense a sudden dark in him.</p>
+          <p>No. Best, that hidden it remain!</p>
+          <p>BOROMIR:<br />Then hidden keep it, I care not.<br />Yet may I not e'en speak of it?<br />You seem to only see the strength<br />It offers to our enemy.</p>
+          <p>THE ENEMY:<br />So clearly seen! Do you not think,<br />Each sees in it their own intent?</p>
+          <p>BOROMIR:<br />Minas Tirith will fail and fall,<br />You say, and we, if the Ring lasts.<br />Yes, were it with our enemy!<br />But why, were it with us instead?</p>
+          <p>FRODO:<br />Pray! Were you not at the council?<br />We cannot use it, for it turns,<br />To evil all that's done with it.</p>
+          <p>THE ENEMY:<br />The halfling ably echoes words!<br />But for himself, what does he know?</p>
+          <p>BOROMIR:<br />So you go on! Gandalf , Elrond,<br />These folk have taught you so to say.<br />And for themselves they may be right!<br />Where elves and wizards come to grief,<br />For timid they may be, not wise,<br />I say to each a kind their own!<br />True-hearted men do not corrupt!<br />Through endless years of trial, we,<br />Men of Minas Tirith stand staunch.T<br />We seek not power of wizard-lords,<br />But only strength for our defense.<br />And now behold! For chance has brought<br />The Ring of Power! Tis a gift!<br />A gift I say, to Mordor's foes.<br />It would be madness not to use<br />The power of the enemy<br />against him! The fearless, ruthless,<br />These alone, will win our aims.<br />What could not warriors do this hour,<br />Great leaders! What Aragorn, or,<br />Boromir, if he refused,<br />Could do! The power of Command,<br />The Ring could give to me, and I,<br />would drive the Hordes of Mordor such,<br />That all men to my banner flock.</p>
+          <p><em>The ENEMY rests its hands on Boromir's shoulders as he begins to speak in verse.</em></p>
+          <p>With Rohan, we will join our might.<br />Our swords with spears will sing as one.<br />And forge through that damn'd Morgul Night,<br />Behind the strength of Gondor's son.<br />The Haradim with us will fight,<br />Their deals with Sauron undone,<br />To break and shatter Mordor's blight,<br />Until through men, the day is won!<br />And crown'd I'll be, and robed in white,<br />A king of kings, my will be done...</p>
+          <p>FRODO:<br />(Aside) Of walls he talks, and weapons too,<br /> And of the mustering of men.<br /> A victory assured he sees,<br /> A crown he forges for his brow.</p>
+          <p>BOROMIR:<br />And all this they would throw away!<br />Destroy the ring, and victory!<br />If reason showed us any hope,<br />This could be done, it might be well,<br />But it does not! A halfling, lone,<br />Should walk to Mordor and by this,<br />To Sauron hand it, for himself,<br />To take? This thing is folly.</p>
+          <p>Surely you see it too, my friend?<br />If you feel fear, I pardon it,<br />As would the boldest you.<br />But this revolt, is of good sense.</p>
+          <p>FRODO:<br />I am afraid. Simply afraid.<br />But glad to hear you fully speak.<br />I know my mind is clearer now.</p>
+          <p>BOROMIR:<br />To Minas Tirith you will come?</p>
+          <p>FRODO:<br />I think you may misunderstand.</p>
+          <p>BOROMIR:<br />But you will come, at least a while?<br />To learn news of the Enemy.<br />My city is not far from here, <br />Mordor from there is closer still.<br />Long in the wilderness we've been<br />You will need rest if you must go.</p>
+          <p><em>BOROMIR reaches out to touch FRODO, THE ENEMY still behind him. FRODO flinches and steps away. BOROMIR is looming over him, dangerously.</em></p>
+          <p>BOROMIR:<br />Why so unfriendly are you now?<br />I neither thief nor tracker be.<br />I need your ring, that you now know.<br />But know I've no desire to keep it.<br />Lend me your Ring, that I may make<br />A trial of my plan, I ask.</p>
+          <p>FRODO:<br />No, no! Tis I alone that bears<br />The council's burden, laid on me.</p>
+          <p>BOROMIR:<br />Then by that folly we will fall!<br />Through it our Enemy's triumph!<br />It angers me, you obst'nate fool!<br />That you would run to willing death,<br />To ruin of our cause. Fool, fool!<br />If mortals have claim to the Ring,<br />It is the men of N&uacute;menor!<br />Tis by unhappy chance it's yours!<br />It should be mine! Give it to me!</p>
+          <p><em>FRODO steps away from BOROMIR, putting a flat stone between them, and says nothing. THE ENEMY is silent, its work done.</em></p>
+          <p>BOROMIR:<br />Why not be free of doubt and fear?<br />Come come my friend, be rid of it!<br />And you can lay the blame on me,<br />That I am strong, and took by force.<br />I am too strong for you, halfling!</p>
+          <p><em>BOROMIR pursues FRODO around the stone. FRODO puts on the ring and vanishes.</em></p>
+          <p>BOROMIR:<br />Miserable trickster! Now I see!<br />Your aim, to sell us all to Him!<br />You've only just waited your chance!<br />Curse you with darkness and with death!<br />Curse you and other halflings too!</p>
+          <p><em>THE ENEMY steps away now that FRODO has vanished, and BOROMIR trips, and falls. The stage is silent for a long moment.</em></p>
+          <p>BOROMIR:<br />Frodo! Frodo! What have I done!<br />A madness took me, now it's passed!<br />Come back! Come back! Come back! Come back!</p>
+          <p><em>EXIT BOROMIR.</em></p>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; black_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
+    </div>
+  </div>
+</body>
+</html>
